@@ -5,7 +5,7 @@ export default function MapPage() {
   return (
     <div className="simple-page">
       <h2>🗺️ 3D Map</h2>
-      <p>A 3D Google-Maps-style viewer: tilted camera, 3D buildings, saved places.</p>
+      <p>Hi I'm joel and my project is about making a 3d map navigator with Augumented reality and live indoor navigation</p>
       <div className="card">
         <p className="hint">🚧 Coming in step 1 — switch with <code>git checkout -f step-1-react</code></p>
       </div>
