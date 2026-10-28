@@ -1,16 +1,14 @@
 import { useState } from 'react';
 import MapPage from './pages/MapPage.jsx';
 import CalendarPage from './pages/CalendarPage.jsx';
-import AboutPage from './pages/AboutPage.jsx';
 
 const PAGES = {
   map: { label: '🗺️ 3D Map', component: MapPage },
   calendar: { label: '📅 AI Calendar', component: CalendarPage },
-  AboutPage: { label: '📅 About', component: AboutPage },
 };
 
 export default function App() {
-  const [page, setPage] = useState('calendar');
+  const [page, setPage] = useState('map');
   const Page = PAGES[page].component;
 
   return (
